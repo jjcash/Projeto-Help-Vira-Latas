@@ -34,6 +34,9 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    #entrevista{
+        padding-right: 10%;
+    }
     h1{
         text-align: center;
         font-size: 3rem !important;
