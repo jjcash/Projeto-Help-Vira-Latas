@@ -9,6 +9,53 @@
 
 /* Page Wide Settings */
 
+@media (max-width: 992px){
+    .wide-menu-bar{
+        display: none;
+    }
+    .nav-item-pad{
+        padding-right: 50px;
+    }
+    #inicio{
+        padding-right: 10%;
+    }
+    #nosso-projeto{
+        padding-left: 10%;
+    }
+    #ong {
+        padding-right: 10%;
+    }
+    #doacao{
+        padding-left: 10%;
+    }
+    #doacao button{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h1{
+        text-align: center;
+        font-size: 3rem !important;
+    }
+    p{
+        text-align: center;
+        font-size: 1.5rem !important;
+    }
+    h2{
+        text-align: center;
+    }
+    #credit{
+        padding-top: 20px;
+        font-size: 0.8rem !important;
+    }
+}
+@media (min-width: 991px){
+    .small-menu-bar{
+        display: none;
+    }
+}
+
 /* Navbar */
 
 .nav-theme{
@@ -16,10 +63,147 @@
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 .nav-pad{
-    padding-left: 2rem;
+    padding: 7% 15%;
 }
-.navbar-text{
-    font-weight: 600;
+.navbar-brand{
     font-size: 1.5rem;
-    color: white;
+}
+
+/* Inicio */
+
+#inicio{
+    background-color: #91BAD6;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    line-height: 1.5;
+    text-align: left;
+}
+#inicio h1{
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+}
+#inicio p{
+    font-size: 2rem;
+}
+#inicio img{
+    border-radius: 50%;
+    width: 60%;
+    margin: auto;    
+    display: block;
+}
+
+/* Nosso Projeto */
+
+#nosso-projeto{
+    background-color: #fff;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    padding-right: 10%;
+    line-height: 1.5;
+    text-align: right;
+}
+#nosso-projeto h2{
+    font-size: 3rem;
+}
+#nosso-projeto p{
+    font-size: 1.5rem;
+}
+#nosso-projeto img{
+    border-radius: 50%;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+/* ONG */
+
+#ong{
+    background-color: #91BAD6;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    line-height: 1.5;
+    text-align: left;
+}
+#ong h2{
+    font-size: 3rem;
+}
+#ong p{
+    font-size: 1.5rem;
+}
+#ong img{
+    border-radius: 50%;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+/* Doação */
+
+#doacao{
+    background-color: #fff;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    padding-right: 10%;
+    line-height: 1.5;
+    text-align: right;
+}
+#doacao h2{
+    font-size: 3rem;
+}
+#doacao p{
+    font-size: 1.5rem;
+}
+#doacao img{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+#doacao a{
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+/* Entrevista */
+
+#entrevista{
+    background-color: #91BAD6;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    line-height: 1.5;
+    text-align: left;
+}
+#entrevista h2{
+    font-size: 3rem;
+}
+#entrevista p{
+    font-size: 1.5rem;
+}
+#entrevista img{
+    border-radius: 50%;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+#entrevista li{
+    font-size: 1.5rem;
+}
+
+/* Footer */
+
+footer{
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+#contato{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 5% 5% 2% 5%;
+}
+#credit{
+    font-size: 0.8rem;
+    padding-left: 2%;
+}
+#credit a{
+    text-decoration: none;
 }
