@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Color Theme Swatches in Hex */
+.Sky-Blues-1-hex { color: #538EB3; }
+.Sky-Blues-2-hex { color: #91BAD6; }
+.Sky-Blues-3-hex { color: #AADDF2; }
+.Sky-Blues-4-hex { color: #D5EEFF; }
+.Sky-Blues-5-hex { color: #FFFEEB; }
+
+/* Page Wide Settings */
+
+/* Navbar */
+
+.nav-theme{
+    background-color: #91BAD6;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+.nav-pad{
+    padding-left: 2rem;
+}
+.navbar-text{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+}
